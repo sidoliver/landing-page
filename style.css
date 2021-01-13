@@ -35,7 +35,7 @@ header {
     text-align: center;
     padding: 15px 10%;
     background-color: #FFFFFF;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.39);
+    box-shadow: 0px 0px 6px rgba(128, 128, 128, 0.582);
 }
 .logo {
     cursor: pointer;
@@ -82,6 +82,7 @@ button {
 } 
  /* section-1 */
  .section-1 {
+     margin-top: 4px;
      background-color: #F7F6F7;
      text-align: center;
      padding: 0 30px 30px;
@@ -152,7 +153,7 @@ button {
    
 }
 .para {
-    color:black;
+    color:rgba(97, 95, 95, 0.603);
     font-size: 12px;
 }
 .mini-banner2 {
@@ -169,4 +170,133 @@ button {
     border-radius: 5px;
     text-align: left;
     background-color: #fff;
+}
+
+/* video player */
+.landing-image {
+     width: 60%;
+     position: relative;
+     left: 263px;
+     top: -86px;
+    margin-bottom: 40px;
+    box-shadow: 0px 5px 30px grey;
+}
+.play-button {
+    width: 100px;
+    position: relative;
+    top: -318px;
+    right: 195px;
+    background-color: #FFF;
+    padding: 10px; 
+    border:5px solid rgba(211, 175, 17, 0.295);   
+    border-radius: 50px;
+}
+.play-button:hover {
+    transform: scale(0.95);
+    background-color:rgba(247, 230, 230, 0.959);
+
+}
+
+/* feature section */
+.feature-main {
+    height: 1100px;
+}
+.feature-card {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: 20px 60px 40px;
+    
+}
+.feature {
+   width: 27%;
+   margin: 7px;
+    padding: 17px;
+}
+.feature-icon {
+    width: 50px;
+    float: left;
+    margin: 15px 10px 0 0 ;
+}
+.feature-head {
+    
+}
+.feature-h3 {
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: 700;
+    color:black;
+}
+.feature-h3:hover {
+    color:#e4620b;
+}
+.feature-para {
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.card-para {
+    text-align: left;
+    margin-left: 62px;
+    line-height: 1.5;
+    color: #736272
+}
+
+/* feature button */
+.feature-button {
+    text-align: center;
+}
+.feature-button a {
+    margin-left: 20px;
+}
+
+/* Testimonials*/
+
+.testimonial {
+    background-color: #F7F6F7;
+    width:100vw;
+    height:90vh;
+    padding-top: 70px;
+}
+.test-head {
+    margin-bottom: 30px;
+}
+
+.quote-icon {
+    width: 25px;
+    float: left;
+    margin-right: 20px;
+}
+.testcard {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+.test-card {
+    width: 25%;
+    height: 150px;
+    background-color: #fff;
+    margin: 0 10px 1px 0;
+    padding: 30px;
+    box-shadow: 0px 3px 4px rgba(128, 128, 128, 0.24);
+    border-radius: 10px;
+    
+}
+.test-card p {
+    margin-left: 50px;
+}
+
+.pro-image {
+    width: 40px;
+    border-radius: 20px;
+    float: left;
+    margin-top: 20px;
+}
+.profile h3 {
+    text-align: left;
+    margin-left: 60px;
+}
+.profile p {
+    margin-left: 60px;
+    font-size: 13px;
 }
