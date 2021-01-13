@@ -8,16 +8,21 @@ h1 {
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
+    text-align: center;
+    color: #230B20;
 }
 h3 {
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
+    text-align: center;
+    color:#4F394D;
+    padding-top: 10px;
 }
 p {
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 20px;
 }
 .nav-link,li, a{
    font-weight: 500;
@@ -35,6 +40,7 @@ header {
 .logo {
     cursor: pointer;
     margin-right: auto;
+    
 }
 .nav-link {
     list-style: none;
@@ -61,7 +67,7 @@ header {
     font-weight: 600;
     padding: 14px 20px;
     color: #fff;
-    background-color: #eb4f3b;
+    background-color: #e4620b;
     border-radius: 4px;
     
 }
@@ -74,6 +80,93 @@ button {
     border: 0px solid transparent;
     text-shadow: 0px 0px 0px transparent;
 } 
-/* button:focus {
-    outline: 0;
-} */
+ /* section-1 */
+ .section-1 {
+     background-color: #F7F6F7;
+     text-align: center;
+     padding: 0 30px 30px;
+     height:700px;
+ }
+.header-text {
+    padding-top: 50px;
+}
+.lists {
+    height: 300px;
+}
+ .listings {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     padding: 35px 50px 10px;
+     margin:12px 240px;
+    
+ }
+ .listing {
+     flex-grow: 1;
+ }
+ .icons {
+     background-color: #fff;
+     padding: 10px;
+     border: 3px solid rgba(194, 188, 188, 0.911);
+     border-radius: 35px;
+ }
+ .firsth3 {
+     color:#4F394D;
+     font-weight: 700;
+ }
+.secondh3 {
+    color: #b2afb4;
+}
+.cta-1 {
+    font-size: 23px;
+    font-weight: 600;
+    padding: 25px 40px;
+    color: #fff;
+    background-color: #e4620b;
+    border-radius: 12px;
+}
+.cta-1:hover {
+    background-color: #cc2b15;
+}
+.mini-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+.mini-banner1 {
+    width: 15%;
+    padding:8px;
+    border-radius: 5px;
+    text-align: left;
+    background-color: #fff;
+    margin-right: 10px;
+    
+
+}
+.mini-image {
+    width: 40px;
+    float:left;
+    margin-right: 10px;
+    padding: 10px 0 0 9px;
+   
+}
+.para {
+    color:black;
+    font-size: 12px;
+}
+.mini-banner2 {
+    width: 14%;
+    padding:8px;
+    border-radius: 5px;
+    text-align: left;
+    background-color: #fff;
+    margin-right: 10px;
+}
+.mini-banner3 {
+    width: 14%;
+    padding:8px;
+    border-radius: 5px;
+    text-align: left;
+    background-color: #fff;
+}
