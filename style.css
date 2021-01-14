@@ -303,3 +303,24 @@ button {
 
 /* Template section */
 
+.template-section {
+    margin: 0 90px 0;
+}
+.template1 {
+    display: flex;
+    
+}
+.template-text {
+    padding: 70px 90px 40px;
+}
+.template-text h2 {
+    text-align: left;
+    padding-bottom: 15px;
+    color: #230B20;
+    
+}
+.template-text p {
+    line-height: 1.5;
+    color: #554755;
+    
+}
