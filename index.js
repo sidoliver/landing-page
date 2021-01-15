@@ -1,4 +1,4 @@
-alert("it's working");
+
 var acc = document.getElementsByClassName("accordion");
 var i;
 
